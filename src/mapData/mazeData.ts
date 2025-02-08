@@ -18,7 +18,7 @@ export const mazeData = [
 export const startRow = 1, startCol = 1;
 
 // End position (Bottom-right corner)
-export const endRow = 11, endCol = 18;
+export const endRow = 9, endCol = 18;
 
 // **Checkpoints placed FAR apart and ONLY on valid paths (0s)**
 export const checkpoints = [
@@ -55,7 +55,7 @@ export const checkpoints = [
   {
     id: 4,
     row: 7,
-    col: 14,
+    col: 9,
     title: "Skills",
     color: "orange",
     description:
@@ -74,8 +74,8 @@ export const checkpoints = [
   },
   {
     id: 6,
-    row: 11,
-    col: 2,
+    row: 7,
+    col: 1,
     title: "Resume",
     color: "teal",
     description:
@@ -84,7 +84,7 @@ export const checkpoints = [
   },
   {
     id: 7,
-    row: 11,
+    row: 9,
     col: 6,
     title: "LinkedIn",
     color: "purple",
@@ -104,7 +104,7 @@ export const checkpoints = [
   },
   {
     id: 9,
-    row: 9,
+    row: 7,
     col: 16,
     title: "LeetCode",
     color: "gold",
