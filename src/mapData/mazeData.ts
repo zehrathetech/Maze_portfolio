@@ -85,7 +85,7 @@ export const checkpoints = [
   {
     id: 7,
     row: 9,
-    col: 6,
+    col: 8,
     title: "LinkedIn",
     color: "purple",
     description:
