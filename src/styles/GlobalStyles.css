@@ -1,0 +1,160 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f7fa;
+  font-family: Arial, sans-serif;
+}
+.app {
+  min-height: 100vh;
+  /* background: #f5f5f5; */
+  /* padding: 20px;
+  text-align: center;
+} */ */
+
+
+.game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.checkpoint {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120px; /* Space between sign and maze */
+  padding-top: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0f7fa;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+/* .app {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align everything at the top */
+  
+  padding-top: 10px; Additional space from the top
+}  */
+
+/* .app {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.app {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+  padding-top: 10px; /* Extra spacing at the top */
+}
+
+
+
+
+.wooden-sign-container {
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.maze-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  background: transparent;
+}
+/* Wooden Sign - Move Higher on the Screen */
+/* .wooden-sign-container {   
+  position: absolute;   
+  top: 0px;  /* Moves the sign to the very top */
+  /* left: 50%;   
+  transform: translateX(-50%);   
+  z-index: 10; /* Ensure it stays above other elements */
+ */
+
+/*Maze - Prevent Overlap & Keep Centered */
+/* .maze-container {   
+  position: fixed;   
+  top: 55%;  /* Push it slightly lower to give space for the sign */
+  /* left: 50%;   
+  transform: translate(-50%, -50%);  
+  background: transparent;  */
+ 
+/* } */ 
+/* .wooden-sign-container {   
+  position: absolute;   
+  top: 10%;  /* Move the sign higher */
+  /* left: 50%;   
+  transform: translateX(-50%);   
+  z-index: 1; /* Ensure it stays above the maze */
+
+
+
+/* .maze-container {   
+  position: fixed;   
+  top: 55%;  /* Move maze slightly down */
+  /* left: 50%;   
+  transform: translate(-50%, -50%);  
+  background: transparent;  */
+ 

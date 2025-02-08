@@ -1,0 +1,35 @@
+/* Default ghost style */
+.ghost {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    font-size: 32px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    animation: float 1.5s infinite alternate ease-in-out;
+  }
+  
+  /* Floating effect */
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  /* Blinking effect when reaching a checkpoint */
+  .blink {
+    animation: blink 0.4s infinite alternate;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.3;
+    }
+  }
+  
